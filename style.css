@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* Primary Colors */
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /* neutral */
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+html {
+    background: var(--dark-cyan) url(./images/bg-pattern-top.svg) top left no-repeat, 
+    url(./images/bg-pattern-bottom.svg) bottom right no repeat;
+}
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;            /* stats and name */
+    line-height: 1.6em;
+}
+
+.profile__card--component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+}
