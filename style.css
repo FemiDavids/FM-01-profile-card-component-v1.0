@@ -15,9 +15,16 @@
 }
 
 html {
-    background: var(--dark-cyan) url(./images/bg-pattern-top.svg) top left no-repeat, 
-    url(./images/bg-pattern-bottom.svg) bottom right no repeat;
-}
+    background-color: var(--dark-cyan); 
+    background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -80% 50%, 180% -30% ;
+
+    /* can be written like this as well */
+    background-image: url(./images/bg-pattern-top.svg) no-repeat -80% 50%,
+    url(./images/bg-pattern-bottom.svg) no-repeat 180% 30%;
+} 
 
 body {
     font-family: arial, helvetica, sans-serif;
@@ -25,12 +32,26 @@ body {
     line-height: 1.6em;
 }
 
-.profile__card--component {
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
-.container {
+.profile__card {
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    background-color: white;
+    max-height: 100%;
 }
+
+.profile__card--bg {
+    width: 100%;
+    max-height: 30%;
+    background-image: url(./images/bg-pattern-card.svg);
+}
+
