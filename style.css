@@ -33,11 +33,18 @@ body {
 }
 
 .container {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 50%;
+
 }
 
 .profile__card {
-    
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
 }
 
 .card-top {
