@@ -29,7 +29,7 @@ html {
 } 
 
 body {
-    font-family: arial, helvetica, sans-serif;
+    font-family: sans-serif;
     font-size: 18px;            /* stats and name */
     line-height: 1.6em;
 }
@@ -39,6 +39,41 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
 
 .attribution { 
     font-size: 11px; 

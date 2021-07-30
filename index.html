@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="description" content="fm-profile-card" />
+    <meta name="keywords" content="front-end, mentor, profile, card, fm" />
+    <meta name="author" content="dave" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+    <title>Frontend Mentor | Profile Card Component</title>
+
     
-  </style>
-</head>
-<body>
+  </head>
+  <body>
+    <section class="main">
+      <div class="profile-card">
+        <div class="card-header">
+          <div class="hero-img"><img src="" alt="" /></div>
+        </div>
 
-    Victor Crest
-    26
-    London
-      
-      80K
-      Follower
-      
-      803K
-      Likes
-      
-      1.4K
-      Photos        
-     
-  
+        <div class="card-body">
+          <h2 class="name">Victor Crest<span class="age"> 26</span></h2>
+          <p class="location">London</p>
+        </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Dave</a>.
-  </div>
-</body>
+        <div class="card-footer">
+          <div class="info">
+            <p><span class="numbers">80K</span>Follower</p>
+          </div>
+
+          <div class="info">
+            <p><span class="numbers"> 803K</span>Likes</p>
+          </div>
+
+          <div class="info">
+            <p><span class="numbers">1.4K</span>Photos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Dave</a>.
+    </div>
+  </body>
 </html>
